@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+/*  X-Small devices (portrait phones, less than 576px) */
+/*  No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .bg-body {
+        background-color: #ffffff !important;
+    }
+
+
+    .navbar-brand {
+        font-family: 'Comic Relief', cursive, sans-serif;
+        color: #088500 !important;
+        font-size: 48px !important;
+        letter-spacing: 1px;
+
+    }
+
+   .navbar-nav .nav-link {
+        color: #000000 !important;
+        font-family: 'Comic Relief', cursive, sans-serif;
+        font-size: 16px;
+        margin: 0 10px;
+        padding: 4px 12px !important;
+        color: #000000;
+    }
+
+    .nav-icons a {
+        color: #000000;
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+
+    .nav-icons a:hover {
+        color: #088500;
+    }
+
+    .hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+    .hero-section .hero-bg-img {
+        object-fit: cover;
+        object-position: center; 
+        min-height: 450px;
+        width: 100%;
+    }
+
+    .hero-section .hero-overlay {
+        z-index: 10;
+        left: 10%; 
+        max-width: 500px;
+    }
+
+    .hero-section .hero-subtitle {
+        font-family: 'Comic Relief', cursive, sans-serif;
+        color: #FFC507; 
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .hero-section .hero-title {
+        font-family: 'Comic Relief', cursive, sans-serif;
+        color: #161616;
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .hero-section .btn-discover {
+        font-family: 'Comic Relief', cursive, sans-serif;
+        background-color: #088500;
+        color:#000000;
+        border: none;
+        padding: 15px 32px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: all 0.3s ease;
+    }
+
+    .hero-section .btn-discover:hover {
+        background-color: #088500;
+        color: #ffffff;
+        transform: translateY(-2px);
+    }
+
+
+    .boxImg img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .boxText {
+        background-color: #088500;
+        color: black;
+        width: 100%;
+        height: 68px;
+        border-radius: 0px 0px 15px 15px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .newarrivals {
+        font-size: 45px;
+        color: #088500;
+        text-align: center;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .newText .nav-link {
+    color: #000000;
+    }
+
+    .newText .nav-link:hover,
+    .newText .nav-link.active {
+    color: #000000;
+    }
+
+    .boxImgnew img {
+        width: 100%;
+        height: auto;
+        border-radius: 0px 0px 0px 0px;
+        padding-top: 50px;
+    }
+
+    .boxTextnew {
+        color: #FD0505;
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        padding-top: 15px;
+        font-size: 15px;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .boxTextprice {
+        color: #088500;
+        width: 100%;
+        height: 68px;
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 30px;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .gallery-big,
+    .gallery-small,
+    .gallery-wide {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-big {
+        height: 100%;
+        min-height: 560px;
+    }
+
+    .gallery-small {
+        height: 268px;
+    }
+
+    .gallery-wide {
+        height: 269px;
+    }
+
+    .gallery-big img,
+    .gallery-small img,
+    .gallery-wide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .gallery-big img,
+    .gallery-small img,
+    .gallery-wide img {
+        transition: 0.4s ease;
+    }
+
+    .gallery-big:hover img,
+    .gallery-small:hover img,
+    .gallery-wide:hover img {
+        transform: scale(1.05);
+    }
+
+    .latestnew {
+        width: 100%;
+        height: 42px;
+        font-size: 45px;
+        color: #088500;
+        text-align: center;
+        font-family: 'Comic Relief', cursive, sans-serif;
+
+    }
+
+    .trending {
+        color: #000000;
+        font-size: 15px;
+        padding-top: 20px;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .newsbox {
+        background-color: #F8F5F5;
+        padding: 20px 20px;
+        height: 343px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .newstitle {
+        color: #FD0505;
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 1.3;
+        margin: 0;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .newsdate {
+        color: #909090;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .newsline {
+        height: 3px;
+        background-color: #088500;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .readmore {
+        color: #000000;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .read-more:hover {
+        color: #008000;
+    }
+
+    .footerImg img{
+        width: 100%;
+        height: auto;
+    }
+
+    .footerBox {
+        width: auto;
+        height: 328px;
+        background-color: #F3FFF3;
+
+    }
+
+    .footerCopy {
+        width: 100%;
+        height: 50px;
+        background-color: #088500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .footerMenu {
+        padding: 40px 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .footerMenu ul li{
+        list-style-type: none;
+        padding: 3px;
+        padding-top: 10px;
+    }
+
+    .footerMenu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footerMenu h3 {
+        color: #000000;
+        font-size: 20px;
+        margin-top: 0;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .footerMenu ul li a {
+        text-decoration: none;
+        color: #8a8a8a;
+        font-family: 'Comic Relief', cursive, sans-serif;
+        font-size: 16px;
+    }
+
+    .footerNewletter {
+        color: #8a8a8a;
+        padding: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+    .footerNewletter h3 {
+        color: #000000;
+        font-size: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        font-family: 'Comic Relief', cursive, sans-serif;
+    }
+
+        /* ปุ่ม summit */
+    input[type=submit] {
+        margin-top: 10px;
+        background-color: #FFC507;
+        border-radius: 5px 5px 5px 5px;
+        color: black;
+        border: none;
+        }
+
+    input[type=submit]:hover {
+        opacity: 0.8;
+        }
+
+        footer .social-icons .social-circle {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-color: #d9d9d9;
+        border-radius: 50%;
+        margin-right: 6px;
+    }
+
+    footer .social-icons .social-circle.active {
+        background-color: #ffcc00; 
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+ }

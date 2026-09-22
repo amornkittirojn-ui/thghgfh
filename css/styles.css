@@ -362,18 +362,23 @@
         opacity: 0.8;
         }
 
-        footer .social-icons .social-circle {
-        display: inline-block;
+            footer .social-icons .social-circle {
+        display: inline-flex; 
+        justify-content: center; 
+        align-items: center; 
         width: 24px;
         height: 24px;
         background-color: #d9d9d9;
         border-radius: 50%;
         margin-right: 6px;
+        text-decoration: none;
+        color: #333;
     }
 
     footer .social-icons .social-circle.active {
         background-color: #ffcc00; 
     }
+
 
 }
 
